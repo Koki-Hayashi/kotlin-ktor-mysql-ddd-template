@@ -1,0 +1,6 @@
+version: "3"
+services:
+  mysql:
+    container_name: "db_templatepj"
+    ports:
+      - 3306:3306
